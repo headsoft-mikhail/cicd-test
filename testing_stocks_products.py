@@ -9,5 +9,4 @@ class TestStocksProducts(unittest.TestCase):
         print('tearDown')
 
     def test_example_test(self):
-        value = (1+1 == 2)
-        self.assertTrue(value)
+        self.assertTrue(1+1 == 2)

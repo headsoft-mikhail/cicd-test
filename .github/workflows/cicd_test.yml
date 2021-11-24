@@ -25,4 +25,4 @@ jobs:
         run: flake8 .
 
       - name: Test with unittest
-        run: unittest
+        run: python -m unittest
